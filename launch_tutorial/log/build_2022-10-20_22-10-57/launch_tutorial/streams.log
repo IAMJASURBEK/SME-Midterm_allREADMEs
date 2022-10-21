@@ -1,0 +1,37 @@
+[0.838s] Invoking command in '/home/jasurbek/launch_tutorial': PYTHONPATH=/home/jasurbek/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/launch_tutorial build --build-base /home/jasurbek/launch_tutorial/build/launch_tutorial/build install --prefix /home/jasurbek/launch_tutorial/install/launch_tutorial --record /home/jasurbek/launch_tutorial/build/launch_tutorial/install.log --single-version-externally-managed
+[1.118s] running egg_info
+[1.120s] creating build/launch_tutorial/launch_tutorial.egg-info
+[1.120s] writing build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[1.121s] writing dependency_links to build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[1.121s] writing entry points to build/launch_tutorial/launch_tutorial.egg-info/entry_points.txt
+[1.122s] writing requirements to build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[1.122s] writing top-level names to build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[1.122s] writing manifest file 'build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.124s] reading manifest file 'build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.126s] writing manifest file 'build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.126s] running build
+[1.127s] running build_py
+[1.127s] creating /home/jasurbek/launch_tutorial/build/launch_tutorial/build
+[1.128s] creating /home/jasurbek/launch_tutorial/build/launch_tutorial/build/lib
+[1.128s] creating /home/jasurbek/launch_tutorial/build/launch_tutorial/build/lib/launch_tutorial
+[1.129s] copying launch_tutorial/__init__.py -> /home/jasurbek/launch_tutorial/build/launch_tutorial/build/lib/launch_tutorial
+[1.129s] running install
+[1.131s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.132s]   warnings.warn(
+[1.132s] running install_lib
+[1.133s] creating /home/jasurbek/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial
+[1.134s] copying /home/jasurbek/launch_tutorial/build/launch_tutorial/build/lib/launch_tutorial/__init__.py -> /home/jasurbek/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial
+[1.134s] byte-compiling /home/jasurbek/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial/__init__.py to __init__.cpython-310.pyc
+[1.135s] running install_data
+[1.136s] creating /home/jasurbek/launch_tutorial/install/launch_tutorial/share/ament_index
+[1.136s] creating /home/jasurbek/launch_tutorial/install/launch_tutorial/share/ament_index/resource_index
+[1.136s] creating /home/jasurbek/launch_tutorial/install/launch_tutorial/share/ament_index/resource_index/packages
+[1.137s] copying resource/launch_tutorial -> /home/jasurbek/launch_tutorial/install/launch_tutorial/share/ament_index/resource_index/packages
+[1.137s] copying package.xml -> /home/jasurbek/launch_tutorial/install/launch_tutorial/share/launch_tutorial
+[1.138s] copying launch/example_main.launch.py -> /home/jasurbek/launch_tutorial/install/launch_tutorial/share/launch_tutorial
+[1.138s] copying launch/example_substitutions.launch.py -> /home/jasurbek/launch_tutorial/install/launch_tutorial/share/launch_tutorial
+[1.138s] running install_egg_info
+[1.141s] Copying build/launch_tutorial/launch_tutorial.egg-info to /home/jasurbek/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info
+[1.142s] running install_scripts
+[1.171s] writing list of installed files to '/home/jasurbek/launch_tutorial/build/launch_tutorial/install.log'
+[1.213s] Invoked command in '/home/jasurbek/launch_tutorial' returned '0': PYTHONPATH=/home/jasurbek/launch_tutorial/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/launch_tutorial build --build-base /home/jasurbek/launch_tutorial/build/launch_tutorial/build install --prefix /home/jasurbek/launch_tutorial/install/launch_tutorial --record /home/jasurbek/launch_tutorial/build/launch_tutorial/install.log --single-version-externally-managed

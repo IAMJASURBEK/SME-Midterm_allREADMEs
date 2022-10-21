@@ -1,0 +1,83 @@
+[0.019s] Invoking command in '/home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jasurbek/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition
+[0.130s] -- The C compiler identification is GNU 11.2.0
+[0.257s] -- The CXX compiler identification is GNU 11.2.0
+[0.267s] -- Detecting C compiler ABI info
+[0.392s] -- Detecting C compiler ABI info - done
+[0.405s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.406s] -- Detecting C compile features
+[0.406s] -- Detecting C compile features - done
+[0.411s] -- Detecting CXX compiler ABI info
+[0.569s] -- Detecting CXX compiler ABI info - done
+[0.582s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.583s] -- Detecting CXX compile features
+[0.584s] -- Detecting CXX compile features - done
+[0.589s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.927s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.057s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.094s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[1.220s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.230s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.246s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.285s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.350s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.513s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.518s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.710s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.764s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.871s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.378s] -- Found rclcpp_components: 16.0.1 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.619s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.768s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.771s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.772s] -- Configured cppcheck include dirs: /home/jasurbek/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include
+[2.772s] -- Configured cppcheck exclude dirs and/or files: 
+[2.774s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.774s] -- Configured cpplint exclude dirs and/or files: 
+[2.775s] -- Added test 'lint_cmake' to check CMake code style
+[2.778s] -- Added test 'uncrustify' to check C / C++ code style
+[2.778s] -- Configured uncrustify additional arguments: 
+[2.779s] -- Added test 'xmllint' to check XML markup files
+[2.781s] -- Configuring done
+[2.825s] -- Generating done
+[2.830s] -- Build files have been written to: /home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_composition
+[2.852s] Invoked command in '/home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jasurbek/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition
+[2.854s] Invoking command in '/home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_composition -- -j2 -l2
+[2.962s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[13.148s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[31.601s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[32.495s] [ 33%] Built target composition_nodes
+[32.528s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[39.169s] [ 55%] [32m[1mLinking CXX executable composition_publisher[0m
+[39.532s] [ 55%] Built target composition_publisher
+[39.559s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[46.259s] [ 77%] [32m[1mLinking CXX executable composition_subscriber[0m
+[46.629s] [ 77%] Built target composition_subscriber
+[46.655s] [ 88%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[53.269s] [100%] [32m[1mLinking CXX executable composition_composed[0m
+[53.646s] [100%] Built target composition_composed
+[53.662s] Invoked command in '/home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_composition -- -j2 -l2
+[53.741s] Invoking command in '/home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_composition
+[53.757s] -- Install configuration: ""
+[53.758s] -- Execute custom install script
+[53.759s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[53.778s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[53.797s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[53.818s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[53.834s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[53.844s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[53.858s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[53.874s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[53.893s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[53.910s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[53.926s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[53.936s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[53.945s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[53.955s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[53.968s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[53.988s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[54.004s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[54.020s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[54.036s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[54.052s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[54.068s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[54.087s] Invoked command in '/home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_composition

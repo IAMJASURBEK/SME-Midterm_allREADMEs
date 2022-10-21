@@ -1,0 +1,66 @@
+[0.019s] Invoking command in '/home/jasurbek/ros2_ws/src/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/rolling:/opt/ros/humble /usr/bin/cmake /home/jasurbek/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor
+[0.125s] -- The C compiler identification is GNU 11.2.0
+[0.236s] -- The CXX compiler identification is GNU 11.2.0
+[0.248s] -- Detecting C compiler ABI info
+[0.380s] -- Detecting C compiler ABI info - done
+[0.401s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.402s] -- Detecting C compile features
+[0.404s] -- Detecting C compile features - done
+[0.412s] -- Detecting CXX compiler ABI info
+[0.562s] -- Detecting CXX compiler ABI info - done
+[0.579s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.580s] -- Detecting CXX compile features
+[0.581s] -- Detecting CXX compile features - done
+[0.584s] -- Found ament_cmake: 1.5.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.945s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.111s] -- Found rclcpp: 16.2.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[1.182s] -- Found rosidl_generator_c: 3.2.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[1.188s] -- Found rosidl_adapter: 3.2.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[1.201s] -- Found rosidl_generator_cpp: 3.2.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[1.223s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.261s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.409s] -- Found rmw_implementation_cmake: 6.3.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[1.416s] -- Found rmw_fastrtps_cpp: 6.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[1.587s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.651s] -- Found FastRTPS: /opt/ros/rolling/include  
+[1.765s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.281s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.724s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.727s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.731s] -- Configured cppcheck include dirs: 
+[2.732s] -- Configured cppcheck exclude dirs and/or files: 
+[2.733s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.735s] -- Configured cpplint exclude dirs and/or files: 
+[2.736s] -- Added test 'lint_cmake' to check CMake code style
+[2.742s] -- Added test 'uncrustify' to check C / C++ code style
+[2.742s] -- Configured uncrustify additional arguments: 
+[2.744s] -- Added test 'xmllint' to check XML markup files
+[2.752s] -- Configuring done
+[2.785s] -- Generating done
+[2.797s] -- Build files have been written to: /home/jasurbek/ros2_ws/src/build/examples_rclcpp_multithreaded_executor
+[2.846s] Invoked command in '/home/jasurbek/ros2_ws/src/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling:/opt/ros/humble /usr/bin/cmake /home/jasurbek/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor
+[2.847s] Invoking command in '/home/jasurbek/ros2_ws/src/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/rolling:/opt/ros/humble /usr/bin/cmake --build /home/jasurbek/ros2_ws/src/build/examples_rclcpp_multithreaded_executor -- -j2 -l2
+[2.931s] [ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m
+[22.695s] [100%] [32m[1mLinking CXX executable multithreaded_executor[0m
+[23.509s] [100%] Built target multithreaded_executor
+[23.532s] Invoked command in '/home/jasurbek/ros2_ws/src/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling:/opt/ros/humble /usr/bin/cmake --build /home/jasurbek/ros2_ws/src/build/examples_rclcpp_multithreaded_executor -- -j2 -l2
+[23.588s] Invoking command in '/home/jasurbek/ros2_ws/src/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/rolling:/opt/ros/humble /usr/bin/cmake --install /home/jasurbek/ros2_ws/src/build/examples_rclcpp_multithreaded_executor
+[23.606s] -- Install configuration: ""
+[23.607s] -- Installing: /home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor
+[23.617s] -- Set runtime path of "/home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor" to ""
+[23.618s] -- Installing: /home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor
+[23.619s] -- Installing: /home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor
+[23.620s] -- Installing: /home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.sh
+[23.621s] -- Installing: /home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv
+[23.621s] -- Installing: /home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.sh
+[23.622s] -- Installing: /home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv
+[23.623s] -- Installing: /home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash
+[23.624s] -- Installing: /home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh
+[23.625s] -- Installing: /home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh
+[23.625s] -- Installing: /home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv
+[23.626s] -- Installing: /home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
+[23.627s] -- Installing: /home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor
+[23.628s] -- Installing: /home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake
+[23.629s] -- Installing: /home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake
+[23.629s] -- Installing: /home/jasurbek/ros2_ws/src/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml
+[23.637s] Invoked command in '/home/jasurbek/ros2_ws/src/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling:/opt/ros/humble /usr/bin/cmake --install /home/jasurbek/ros2_ws/src/build/examples_rclcpp_multithreaded_executor

@@ -1,0 +1,35 @@
+[0.706s] Invoking command in '/home/jasurbek/ros2_ws/src/package1': PYTHONPATH=/home/jasurbek/ros2_ws/install/package1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/package1 build --build-base /home/jasurbek/ros2_ws/build/package1/build install --prefix /home/jasurbek/ros2_ws/install/package1 --record /home/jasurbek/ros2_ws/build/package1/install.log --single-version-externally-managed
+[1.031s] running egg_info
+[1.031s] creating ../../build/package1/package1.egg-info
+[1.032s] writing ../../build/package1/package1.egg-info/PKG-INFO
+[1.032s] writing dependency_links to ../../build/package1/package1.egg-info/dependency_links.txt
+[1.032s] writing entry points to ../../build/package1/package1.egg-info/entry_points.txt
+[1.032s] writing requirements to ../../build/package1/package1.egg-info/requires.txt
+[1.032s] writing top-level names to ../../build/package1/package1.egg-info/top_level.txt
+[1.033s] writing manifest file '../../build/package1/package1.egg-info/SOURCES.txt'
+[1.038s] reading manifest file '../../build/package1/package1.egg-info/SOURCES.txt'
+[1.039s] writing manifest file '../../build/package1/package1.egg-info/SOURCES.txt'
+[1.039s] running build
+[1.039s] running build_py
+[1.039s] creating /home/jasurbek/ros2_ws/build/package1/build
+[1.039s] creating /home/jasurbek/ros2_ws/build/package1/build/lib
+[1.040s] creating /home/jasurbek/ros2_ws/build/package1/build/lib/package1
+[1.040s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.040s]   warnings.warn(
+[1.040s] copying package1/__init__.py -> /home/jasurbek/ros2_ws/build/package1/build/lib/package1
+[1.040s] running install
+[1.040s] running install_lib
+[1.041s] creating /home/jasurbek/ros2_ws/install/package1/lib/python3.10/site-packages/package1
+[1.041s] copying /home/jasurbek/ros2_ws/build/package1/build/lib/package1/__init__.py -> /home/jasurbek/ros2_ws/install/package1/lib/python3.10/site-packages/package1
+[1.042s] byte-compiling /home/jasurbek/ros2_ws/install/package1/lib/python3.10/site-packages/package1/__init__.py to __init__.cpython-310.pyc
+[1.042s] running install_data
+[1.043s] creating /home/jasurbek/ros2_ws/install/package1/share/ament_index
+[1.043s] creating /home/jasurbek/ros2_ws/install/package1/share/ament_index/resource_index
+[1.043s] creating /home/jasurbek/ros2_ws/install/package1/share/ament_index/resource_index/packages
+[1.043s] copying resource/package1 -> /home/jasurbek/ros2_ws/install/package1/share/ament_index/resource_index/packages
+[1.043s] copying package.xml -> /home/jasurbek/ros2_ws/install/package1/share/package1
+[1.043s] running install_egg_info
+[1.045s] Copying ../../build/package1/package1.egg-info to /home/jasurbek/ros2_ws/install/package1/lib/python3.10/site-packages/package1-0.0.0-py3.10.egg-info
+[1.046s] running install_scripts
+[1.076s] writing list of installed files to '/home/jasurbek/ros2_ws/build/package1/install.log'
+[1.183s] Invoked command in '/home/jasurbek/ros2_ws/src/package1' returned '0': PYTHONPATH=/home/jasurbek/ros2_ws/install/package1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/package1 build --build-base /home/jasurbek/ros2_ws/build/package1/build install --prefix /home/jasurbek/ros2_ws/install/package1 --record /home/jasurbek/ros2_ws/build/package1/install.log --single-version-externally-managed

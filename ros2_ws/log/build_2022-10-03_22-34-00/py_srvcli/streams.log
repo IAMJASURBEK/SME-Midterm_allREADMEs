@@ -1,0 +1,35 @@
+[0.476s] Invoking command in '/home/jasurbek/ros2_ws/src/py_srvcli': PYTHONPATH=/home/jasurbek/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/jasurbek/ros2_ws/build/py_srvcli/build install --prefix /home/jasurbek/ros2_ws/install/py_srvcli --record /home/jasurbek/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed
+[0.650s] running egg_info
+[0.650s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[0.650s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.651s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.651s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.651s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.651s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.652s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.653s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.654s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.654s] running build
+[0.654s] running build_py
+[0.654s] creating /home/jasurbek/ros2_ws/build/py_srvcli/build
+[0.654s] creating /home/jasurbek/ros2_ws/build/py_srvcli/build/lib
+[0.655s] creating /home/jasurbek/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.655s] copying py_srvcli/__init__.py -> /home/jasurbek/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.655s] running install
+[0.655s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.655s]   warnings.warn(
+[0.656s] running install_lib
+[0.656s] creating /home/jasurbek/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.657s] copying /home/jasurbek/ros2_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/jasurbek/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.657s] byte-compiling /home/jasurbek/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[0.657s] running install_data
+[0.658s] creating /home/jasurbek/ros2_ws/install/py_srvcli/share/ament_index
+[0.658s] creating /home/jasurbek/ros2_ws/install/py_srvcli/share/ament_index/resource_index
+[0.658s] creating /home/jasurbek/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[0.658s] copying resource/py_srvcli -> /home/jasurbek/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[0.659s] copying package.xml -> /home/jasurbek/ros2_ws/install/py_srvcli/share/py_srvcli
+[0.659s] running install_egg_info
+[0.661s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/jasurbek/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[0.661s] running install_scripts
+[0.676s] writing list of installed files to '/home/jasurbek/ros2_ws/build/py_srvcli/install.log'
+[0.698s] Invoked command in '/home/jasurbek/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/jasurbek/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/jasurbek/ros2_ws/build/py_srvcli/build install --prefix /home/jasurbek/ros2_ws/install/py_srvcli --record /home/jasurbek/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed

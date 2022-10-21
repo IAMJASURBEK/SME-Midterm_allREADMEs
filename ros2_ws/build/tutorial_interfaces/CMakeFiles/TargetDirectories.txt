@@ -1,0 +1,9 @@
+/home/jasurbek/ros2_ws/build/tutorial_interfaces/CMakeFiles/uninstall.dir
+/home/jasurbek/ros2_ws/build/tutorial_interfaces/CMakeFiles/tutorial_interfaces_uninstall.dir
+/home/jasurbek/ros2_ws/build/tutorial_interfaces/CMakeFiles/test.dir
+/home/jasurbek/ros2_ws/build/tutorial_interfaces/CMakeFiles/edit_cache.dir
+/home/jasurbek/ros2_ws/build/tutorial_interfaces/CMakeFiles/rebuild_cache.dir
+/home/jasurbek/ros2_ws/build/tutorial_interfaces/CMakeFiles/list_install_components.dir
+/home/jasurbek/ros2_ws/build/tutorial_interfaces/CMakeFiles/install.dir
+/home/jasurbek/ros2_ws/build/tutorial_interfaces/CMakeFiles/install/local.dir
+/home/jasurbek/ros2_ws/build/tutorial_interfaces/CMakeFiles/install/strip.dir

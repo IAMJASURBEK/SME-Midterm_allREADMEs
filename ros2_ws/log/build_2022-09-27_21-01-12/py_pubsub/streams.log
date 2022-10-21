@@ -1,0 +1,43 @@
+[1.295s] Invoking command in '/home/jasurbek/ros2_ws/src/py_pubsub': PYTHONPATH=/home/jasurbek/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/jasurbek/ros2_ws/build/py_pubsub/build install --prefix /home/jasurbek/ros2_ws/install/py_pubsub --record /home/jasurbek/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
+[1.782s] running egg_info
+[1.783s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[1.784s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.785s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.785s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.786s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.786s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.787s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.790s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.791s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.792s] running build
+[1.793s] running build_py
+[1.793s] creating /home/jasurbek/ros2_ws/build/py_pubsub/build
+[1.794s] creating /home/jasurbek/ros2_ws/build/py_pubsub/build/lib
+[1.794s] creating /home/jasurbek/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.795s] copying py_pubsub/subscriber_member_function.py -> /home/jasurbek/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.796s] copying py_pubsub/__init__.py -> /home/jasurbek/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.796s] copying py_pubsub/publisher_member_function.py -> /home/jasurbek/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.797s] running install
+[1.797s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.797s]   warnings.warn(
+[1.798s] running install_lib
+[1.799s] creating /home/jasurbek/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.800s] copying /home/jasurbek/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/jasurbek/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.801s] copying /home/jasurbek/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/jasurbek/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.801s] copying /home/jasurbek/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/jasurbek/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.803s] byte-compiling /home/jasurbek/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[1.804s] byte-compiling /home/jasurbek/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[1.805s] byte-compiling /home/jasurbek/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[1.806s] running install_data
+[1.807s] creating /home/jasurbek/ros2_ws/install/py_pubsub/share/ament_index
+[1.808s] creating /home/jasurbek/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[1.808s] creating /home/jasurbek/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[1.809s] copying resource/py_pubsub -> /home/jasurbek/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[1.809s] copying package.xml -> /home/jasurbek/ros2_ws/install/py_pubsub/share/py_pubsub
+[1.810s] running install_egg_info
+[1.813s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/jasurbek/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[1.815s] running install_scripts
+[1.855s] Installing listener script to /home/jasurbek/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.855s] Installing talker script to /home/jasurbek/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.856s] writing list of installed files to '/home/jasurbek/ros2_ws/build/py_pubsub/install.log'
+[1.893s] Invoked command in '/home/jasurbek/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/jasurbek/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/jasurbek/ros2_ws/build/py_pubsub/build install --prefix /home/jasurbek/ros2_ws/install/py_pubsub --record /home/jasurbek/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed

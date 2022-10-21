@@ -1,0 +1,87 @@
+[0.023s] Invoking command in '/home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jasurbek/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher
+[0.142s] -- The C compiler identification is GNU 11.2.0
+[0.265s] -- The CXX compiler identification is GNU 11.2.0
+[0.285s] -- Detecting C compiler ABI info
+[0.414s] -- Detecting C compiler ABI info - done
+[0.429s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.430s] -- Detecting C compile features
+[0.431s] -- Detecting C compile features - done
+[0.435s] -- Detecting CXX compiler ABI info
+[0.597s] -- Detecting CXX compiler ABI info - done
+[0.625s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.625s] -- Detecting CXX compile features
+[0.627s] -- Detecting CXX compile features - done
+[0.633s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.021s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.171s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.219s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[1.328s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.335s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.347s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.384s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.448s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.604s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.608s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.789s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.849s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.965s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.417s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.569s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.571s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.571s] -- Configured cppcheck include dirs: 
+[2.571s] -- Configured cppcheck exclude dirs and/or files: 
+[2.573s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.573s] -- Configured cpplint exclude dirs and/or files: 
+[2.574s] -- Added test 'lint_cmake' to check CMake code style
+[2.576s] -- Added test 'uncrustify' to check C / C++ code style
+[2.577s] -- Configured uncrustify additional arguments: 
+[2.578s] -- Added test 'xmllint' to check XML markup files
+[2.581s] -- Configuring done
+[2.628s] -- Generating done
+[2.632s] -- Build files have been written to: /home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_publisher
+[2.650s] Invoked command in '/home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jasurbek/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher
+[2.653s] Invoking command in '/home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j2 -l2
+[2.738s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[12.564s] [ 16%] [32m[1mLinking CXX executable publisher_lambda[0m
+[12.910s] [ 16%] Built target publisher_lambda
+[12.947s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[22.642s] [ 33%] [32m[1mLinking CXX executable publisher_member_function[0m
+[22.999s] [ 33%] Built target publisher_member_function
+[23.028s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[32.658s] [ 50%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[33.001s] [ 50%] Built target publisher_member_function_with_type_adapter
+[33.039s] [ 58%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[42.578s] [ 66%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[42.953s] [ 66%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[42.991s] [ 75%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[52.711s] [ 83%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[53.033s] [ 83%] Built target publisher_wait_for_all_acked
+[53.065s] [ 91%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[62.634s] [100%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[62.983s] [100%] Built target publisher_not_composable
+[63.002s] Invoked command in '/home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j2 -l2
+[63.073s] Invoking command in '/home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_publisher
+[63.088s] -- Install configuration: ""
+[63.090s] -- Execute custom install script
+[63.091s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[63.106s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[63.121s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[63.135s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[63.151s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[63.168s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[63.184s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[63.203s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[63.219s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[63.233s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[63.249s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[63.267s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[63.277s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[63.288s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[63.302s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[63.317s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[63.332s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[63.350s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[63.367s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[63.384s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[63.400s] -- Symlinking: /home/jasurbek/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[63.427s] Invoked command in '/home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jasurbek/ros2_ws/build/examples_rclcpp_minimal_publisher
