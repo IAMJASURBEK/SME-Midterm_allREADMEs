@@ -148,7 +148,8 @@ ros2 component load /ComponentManager composition composition::Talker -e use_int
 ```
 
 <br/>
-![cn2](https://user-images.githubusercontent.com/90182787/197153979-dbdbd8ae-5431-46f3-97eb-1aebd90a4dd0.jpg)
+![cn2](https://user-images.githubusercontent.com/90182787/197154252-0160cde7-a08b-4d84-b255-67b8d3377b67.jpg)
+
 
 
 
