@@ -147,7 +147,7 @@ we can also pass additional arguments into components as foolows:
 ros2 component load /ComponentManager composition composition::Talker -e use_intra_process_comms:=true
 ```
 
-<br/>
+
 ![cn2](https://user-images.githubusercontent.com/90182787/197154252-0160cde7-a08b-4d84-b255-67b8d3377b67.jpg)
 
 
